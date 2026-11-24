@@ -76,8 +76,7 @@ def main():
     )
 
     update_exclude(KLIPPER_EXCLUDE, klipper)
-    update_exclude(MOONRAKER_EXCLUDE, moonr)
-
+    update_exclude(MOONRAKER_EXCLUDE, moonraker)
     logging.info(
         "Git symlink exclusions updated: Klipper=%d Moonraker=%d",
         len(klipper),
